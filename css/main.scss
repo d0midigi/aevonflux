@@ -4,11 +4,11 @@ sitemap: false
 ---
 
 $baseurl: "{{ site.baseurl }}";
-$body-background-color: #2B2E31;
+$body-background-color: #333333;
 
 $content-max-width: 800px;
-$content-color: #222;
-$content-background-color: #fff;
+$content-color: #fff;
+$content-background-color: #333;
 
 $brand-colour: #3583d6;
 $brand-colour-light: mix($brand-colour, $content-background-color, 10%);
