@@ -63,8 +63,8 @@
 
 				<ul>
 					<li class="nav-item top-level {% if page.url == '/fundamental-concepts/' %}current{% endif %}">
-						{% assign changelog = site.html_pages | where: 'url', '/fundamental-concepts/' | first %}
-						<a href="{{ site.baseurl }}/fundamental-concept/">{{ fundamental-concepts.title }}</a>
+						{% assign fundamental-concepts = site.html_pages | where: 'url', '/fundamental-concepts/' | first %}
+						<a href="{{ site.baseurl }}/fundamental-concepts/">{{ fundamental-concepts.title }}</a>
 					</li>
 				</ul>
 					<li class="nav-item top-level {% if page.url == '/changelog/' %}current{% endif %}">
